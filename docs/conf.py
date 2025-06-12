@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# IATI Validator documentation build configuration file,
+# IATI CDFD documentation build configuration file,
 # created by sphinx-quickstart on Wed Nov  2 14:17:45 2016.
 #
 # This file is execfile()d with the current directory set to its
@@ -143,8 +143,11 @@ html_css_files = [
 #
 html_theme_options = {
     "github_repository": "https://github.com/IATI/iati-docs-base",
-    "header_title_text": "IATI Docs Base",
-    "project_title": "IATI Docs Base",
+    "header_title_text": "Country Development Finance Data",
+    "project_title": "CDFD: Documentation",
+    "tool_nav_items": {
+        "CDFD": "https://countrydata.iatistandard.org/"
+    },
     "languages": ["en"],
 }
 
@@ -154,7 +157,7 @@ html_theme_options = {
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
 #
-# html_title = 'IATI Validator Docs'
+# html_title = 'IATI CDFD Docs'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
@@ -277,7 +280,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, "sphinx.tex", "IATI Validator Docs", "IATI Secretariat", "manual"),
+    (master_doc, "sphinx.tex", "IATI CDFD Docs", "IATI Secretariat", "manual"),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -317,7 +320,7 @@ latex_documents = [
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [(master_doc, "sphinx", "IATI Validator Docs", [author], 1)]
+man_pages = [(master_doc, "sphinx", "IATI CDFD Docs", [author], 1)]
 
 # If true, show URL addresses after external links.
 #
@@ -333,7 +336,7 @@ texinfo_documents = [
     (
         master_doc,
         "sphinx",
-        "IATI Validator Docs",
+        "IATI CDFD Docs",
         author,
         "sphinx",
         "One line description of project.",
