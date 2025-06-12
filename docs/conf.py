@@ -145,9 +145,7 @@ html_theme_options = {
     "github_repository": "https://github.com/IATI/iati-docs-base",
     "header_title_text": "Country Development Finance Data",
     "project_title": "CDFD: Documentation",
-    "tool_nav_items": {
-        "CDFD": "https://countrydata.iatistandard.org/"
-    },
+    "tool_nav_items": {"CDFD": "https://countrydata.iatistandard.org/"},
     "languages": ["en"],
 }
 
