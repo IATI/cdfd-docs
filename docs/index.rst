@@ -17,3 +17,20 @@ We recommend CDFD for:
     :caption: CDFD
 
     Home <self>
+
+.. toctree::
+    :hidden:
+    :titlesonly:
+    :maxdepth: 3
+    :caption: User Guide
+
+    getting_started
+    faq
+
+.. toctree::
+    :hidden:
+    :titlesonly:
+    :maxdepth: 3
+    :caption: Methodology
+
+    methodology

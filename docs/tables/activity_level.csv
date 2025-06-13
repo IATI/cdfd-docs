@@ -1,0 +1,4 @@
+Element,Description
+:iati-reference:`iati-identifier`,The unique identifier for the activity
+:iati-reference:`title`,"The title of the activity. Where possible, the relevant language version is included for our supported languages (English, French, Spanish and Portuguese)."
+:iati-reference:`description`,"The description of the activity. Where possible, the relevant language version is included for our supported languages (English, French, Spanish and Portuguese)."
