@@ -1,0 +1,5 @@
+Transaction Element,Description
+:iati-reference:`value`,"The transaction value in the published currency."
+:iati-reference:`transaction-date/@iso-date`,"The date of the transaction."
+:iati-reference:`value/@value-date`,"The date to be used for determining the exchange rate for currency conversions."
+:iati-reference:`transaction-type`,"The transaction type."

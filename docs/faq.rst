@@ -25,7 +25,7 @@ Frequently Asked Questions
 .. _faq_3:
 
 \3. Why is there missing data?
-    Common reasons for “missing” data in d-portal include:
+    Common reasons for “missing” data in CDFD include:
 
     * Reporting organisations can include different levels of detail in their data.
     * Reporting organisations may follow different update schedules. For example, monthly, quarterly, or annually.
