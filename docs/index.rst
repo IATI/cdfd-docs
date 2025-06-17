@@ -33,4 +33,5 @@ We recommend CDFD for:
     :maxdepth: 3
     :caption: Methodology
 
-    methodology
+    retrieval
+    processing

@@ -1,12 +1,11 @@
 ************************
-CDFD Methodology
+Data Retrieval
 ************************
 
-This section outlines how IATI data is the retrieved, processed, and output by CDFD.
+This section outlines how IATI data is retrieved by CDFD.
 
 Data Source
 ============
-
 
 CDFD downloads a daily snapshot of all IATI data from the `IATI Data Dump <https://iati-data-dump.codeforiati.org/>`_, a tool built by the IATI community.
 
@@ -49,6 +48,8 @@ The following elements are extracted from each transaction. If these four fields
     :widths: 22, 45
     :header-rows: 1
 
+|
+
 Transaction or activity level
 ------------------------------
 
@@ -59,6 +60,8 @@ For some elements, the data can be declared at transaction or activity level. Tr
     :widths: 20,20, 45
     :header-rows: 1
 
+|
+
 Provider and receiver organisations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -66,11 +69,18 @@ Where provider or receiver organisations are not declared, the following activit
 
 .. csv-table::
     :file: tables/org_logic.csv
-    :widths: 22,40,40
+    :widths: 25,35,35
     :header-rows: 1
 
+|
 
 Multi-value elements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When recipient country/region or sector are declared at activity level, they may have multiple values with percentage splits. 
+A "Multi Country" column has been added CDFD outputs to indicuate that a transaction is part of a multi country/region project, where 1 = True and 0 = False.
+
+.. csv-table::
+    :file: tables/multi_value.csv
+    :widths: 15,15,45
+    :header-rows: 1

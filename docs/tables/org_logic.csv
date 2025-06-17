@@ -3,5 +3,3 @@ Transaction Type,Provider org,Receiver org
 2 - Outgoing Commitment,:iati-reference:`reporting-org`,:iati-reference:`participating-org` - Implementing org
 3 - Disbursement,:iati-reference:`reporting-org`,:iati-reference:`participating-org`- Implementing org
 4 - Expenditure,:iati-reference:`reporting-org`,:iati-reference:`participating-org` - Implementing org
-
-:iati-reference:`@currency`,:iati-reference:`@default-currency`,"The transaction currency, or the activity default currency"
