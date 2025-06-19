@@ -25,6 +25,7 @@ We recommend CDFD for:
     :caption: User Guide
 
     getting_started
+    example_queries
     faq
 
 .. toctree::

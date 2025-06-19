@@ -83,7 +83,9 @@ When correcting percentages for countries/regions, the following logic is used:
 Currency Conversion
 ======================
 
-Individual transactions are converstion to USD, Euro, and local currencies using the closest exchange rate date to the transaction value-date. 
+Individual transactions are conversion to USD, Euro, and the local (country) currency using the closest exchange rate date to the transaction :iati-reference:`@value-date`. 
+Budget values are converted using the closest date to the budget :iati-reference:`@value-date`.
+
 Monthly exchange rates for 169 currencies are sourced from the IMF's `International Financial Statistics <https://data.imf.org/en?sk=4C514D48-B6BA-49ED-8AB9-52B0C1A0179B>`_.
 
 Budget Handling

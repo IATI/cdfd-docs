@@ -17,8 +17,8 @@ Example Queries
 
 A Local NGO is looking to coordinate with other organisations. They want to find a list of organisations who are supporting the humanitarian response in Lebanon.
 
-Using CDFD, they access the recipient country/region `summary dashboard for Lebanon <https://countrydata.iatistandard.org/data/recipient-country-or-region/LB/?filters=transaction_type%3A3,4,budget%3Byear%3A2024>`_. 
-The dashboard includes an overview of budgets and spend by :iati-reference:`reporting-org`. These are the different organisations that have published IATI data.
+Using CDFD, they access the recipient country/region `Summary Dashboard for Lebanon <https://countrydata.iatistandard.org/data/recipient-country-or-region/LB/?filters=transaction_type%3A3,4,budget%3Byear%3A2024>`_. 
+The Dashboard includes an overview of budgets and spend by :iati-reference:`reporting-org`. These are the different organisations that have published IATI data.
 
 .. figure:: images/q1.svg
     :width: 100 %
@@ -30,7 +30,7 @@ The dashboard includes an overview of budgets and spend by :iati-reference:`repo
 Using the “Customise” button allows them to create a custom data download from the reporting organisation graph. 
 
 They select the following options:
-* View the dashboard as a table
+* View the Dashboard as a table
 * Add :iati-reference:`provider-org` and :iati-reference:`receiver-org` using the columns drop down menu. These are the organisations listed as providing or receiving funding as part of the activity.
 * Add a humanitarian filter using the “More Filters” menu
 
@@ -50,13 +50,13 @@ The `resulting table <https://countrydata.iatistandard.org/data/custom/?drilldow
 The Ministry of Finance in Zimbabwe needs data on external inflows to the country to feed into the quarterly calculation of Balance of Payments. 
 They want to find out about external resources spent in 2021 Q4 in Zimbabwe.
 
-Using CDFD, they access the recipient country/region `summary dashboard for Zimbabwe <https://countrydata.iatistandard.org/data/recipient-country-or-region/ZW/?filters=calendar_year_and_quarter%3A2021%20Q4%3Btransaction_type%3A3,4>`_, 
+Using CDFD, they access the recipient country/region `Summary Dashboard for Zimbabwe <https://countrydata.iatistandard.org/data/recipient-country-or-region/ZW/?filters=calendar_year_and_quarter%3A2021%20Q4%3Btransaction_type%3A3,4>`_, 
 and filter to the 2021 Q4 period. They also select the “Spending” resource flows option to focus on disbursements and expenditures. 
 
 .. figure:: images/q2.svg
     :width: 100 %
     :align: center
-    :alt: Screenshot of the CDFD dashboard filter menu for Zimbabwe
+    :alt: Screenshot of the CDFD Dashboard filter menu for Zimbabwe
 
     CDFD Zimbabwe Dashboard: Filters
 

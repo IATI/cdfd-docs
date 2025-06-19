@@ -41,4 +41,4 @@ Frequently Asked Questions
     * `ES_CDFD.zip <https://cdfd.iati.opendataservices.coop/output/web/xlsx/cdfd-xlsx-files-es.zip>`_
     * `PT_CDFD.zip <https://cdfd.iati.opendataservices.coop/output/web/xlsx/cdfd-xlsx-files-pt.zip>`_
 
-    Note that this is a prototype services, there may be a delay of ~24-36 hours before recently published data is incorporated into these aggregate results.
+    Note that this is a prototype service. There may be a delay of ~24-36 hours before recently published data is incorporated into these aggregate results.
