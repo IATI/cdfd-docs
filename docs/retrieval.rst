@@ -72,6 +72,8 @@ Where provider or receiver organisations are not declared, the following activit
     :widths: 25,35,35
     :header-rows: 1
 
+As there can be multiple funding organisations reported for one activity, there may be multiple values in this field.
+
 |
 
 Multi-value elements

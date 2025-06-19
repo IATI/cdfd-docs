@@ -52,4 +52,11 @@ The included columns, filters and currency can all be customised.
 --------------------------------------------------------------------------
 
 The full processed data set for each Recipient Country/Region can be downloaded from the CDFD homepage. 
-Each file is downloadable in English, French, Spanish or Portuguese (where available), in spreadsheet format.
+Each file is downloadable in English, French, Spanish, or Portuguese (where available), in spreadsheet format.
+
+.. figure:: images/data_files_1.png
+    :width: 60 %
+    :align: center
+    :alt: Screenshot of the "Access data files" area of the CDFD homepage.
+
+    CDFD Country/Region Data Files download widget.

@@ -30,6 +30,7 @@ The Dashboard includes an overview of budgets and spend by :iati-reference:`repo
 Using the “Customise” button allows them to create a custom data download from the reporting organisation graph. 
 
 They select the following options:
+
 * View the Dashboard as a table
 * Add :iati-reference:`provider-org` and :iati-reference:`receiver-org` using the columns drop down menu. These are the organisations listed as providing or receiving funding as part of the activity.
 * Add a humanitarian filter using the “More Filters” menu
