@@ -112,3 +112,9 @@ If a budget does not perfectly span quarters, the number of days in each part-qu
 This maintains comparability between transactions (which are marked with a single date) and budgets (which span a period, and which may not align with an organisation's fiscal year).
 
 Where revised and original budgets are both published for the same period, revised budgets are used instead of original budgets.
+
+Spending
+=========
+
+In CDFD's dashboards, Disbursement and Expenditure type transactions are added together to calculate Spending. 
+Definitions of all transaction types are available from the `Transaction Type Codelist <https://iatistandard.org/en/iati-standard/203/codelists/transactiontype/>`_.

@@ -80,6 +80,7 @@ Multi-value elements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When recipient country/region or sector are declared at activity level, they may have multiple values with percentage splits. 
+
 A "Multi Country" column has been added CDFD outputs to indicuate that a transaction is part of a multi country/region project, where 1 = True and 0 = False.
 
 .. csv-table::
