@@ -1,0 +1,8 @@
+Transaction Element, Activity Element, Description
+:iati-reference:`@currency`,:iati-reference:`@default-currency`,"The transaction currency, or the activity default currency."
+:iati-reference:`aid-type`,:iati-reference:`default-aid-type`,"The transaction aid type, or the activity default aid type. Only DAC aid types are included."
+:iati-reference:`finance-type`,:iati-reference:`default-finance-type`,"The transaction finance type, or the activity default finance type."
+:iati-reference:`flow-type`,:iati-reference:`default-flow-type`,"The transaction flow type, or the activity default flow type."
+:iati-reference:`provider-org`,:iati-reference:`reporting-org` or :iati-reference:`participating-org`,"The transaction provider organisation."
+:iati-reference:`receiver-org`,:iati-reference:`reporting-org` or :iati-reference:`participating-org`,"The transaction receiver organisation."
+:iati-reference:`@humanitarian`,:iati-reference:`@humanitarian`,"The transaction humanitarian flag, or the activity humanitarian flag. A boolean value, where 1 = True and 0 = False."

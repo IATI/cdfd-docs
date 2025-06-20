@@ -1,0 +1,5 @@
+Transaction Type,Provider org,Receiver org
+1 - Incoming Funds,:iati-reference:`participating-org` - Funding org, :iati-reference:`reporting-org`
+2 - Outgoing Commitment,:iati-reference:`reporting-org`,:iati-reference:`participating-org` - Implementing org
+3 - Disbursement,:iati-reference:`reporting-org`,:iati-reference:`participating-org`- Implementing org
+4 - Expenditure,:iati-reference:`reporting-org`,:iati-reference:`participating-org` - Implementing org

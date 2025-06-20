@@ -1,0 +1,4 @@
+Transaction Element, Activity Element, Description
+:iati-reference:`recipient-country`,:iati-reference:`recipient-country`,"The transaction recipient country, or the list of activity recipient countries."
+:iati-reference:`recipient-region`,:iati-reference:`recipient-region`,"If no recipient countries are declared, DAC regions are used."
+:iati-reference:`sector`,:iati-reference:`sector`,"The transaction sector, or the list of activity sectors. Only DAC 5 digit sector codes are used to reduce complexity."

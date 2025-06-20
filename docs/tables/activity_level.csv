@@ -1,0 +1,6 @@
+Activity Element,Description
+:iati-reference:`iati-identifier`,"The unique identifier for the activity."
+:iati-reference:`title`,"The title of the activity. Where possible, the relevant language version is included for supported languages (English, French, Spanish and Portuguese)."
+:iati-reference:`description`,"The description of the activity. Where possible, the relevant language version is included for supported languages (English, French, Spanish and Portuguese)."
+:iati-reference:`reporting-org`,"The name of the organisation publishing this IATI data, mapped from the list of reporting organisations as recorded on the `IATI Registry <https://iatiregistry.org/publisher/>`_."
+:iati-reference:`reporting-org/@type`,"The type of reporting organisation publishing this IATI data."
