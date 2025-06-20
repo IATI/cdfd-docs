@@ -48,7 +48,7 @@ The included columns, filters and currency can all be customised.
     Finance Type graph from the "110 - Education" Sector Category Data Dashboard
 
 
-`Country/Region Data Files <https://countrydata.iatistandard.org/4>`_
+`Country/Region Data Files <https://countrydata.iatistandard.org/>`_
 --------------------------------------------------------------------------
 
 The full processed data set for each Recipient Country/Region can be downloaded from the CDFD homepage. 
