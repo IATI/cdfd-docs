@@ -37,3 +37,11 @@ We recommend CDFD for:
 
     retrieval
     processing
+
+.. toctree::
+    :titlesonly:
+    :maxdepth: 1
+    :caption: Download
+    :hidden:
+
+    PDF  <https://docs.countrydata.iatistandard.org/_/downloads/en/latest/pdf/>
