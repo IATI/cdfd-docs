@@ -21,7 +21,8 @@ Frequently Asked Questions
 .. _faq_2: 
 
 \2. When is CDFD updated?
-    CDFD is refreshed once per day.
+    CDFD is refreshed once per day. 
+    Individual reporting organisations update their data at different frequencies, such as monthy, quarterly, or annually. 
 
 .. _faq_3:
 
