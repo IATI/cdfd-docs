@@ -162,6 +162,6 @@ Value (EUR)
 ========================
 The value of the transaction/budget row in Euros.
 
-Value (Local currrency)
+Value (Local currency)
 ========================
 The value of the transaction/budget row in the local currency, customised for each country. 
