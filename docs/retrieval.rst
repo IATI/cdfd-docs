@@ -62,6 +62,8 @@ For some elements, the data can be declared at transaction or activity level. Tr
 
 |
 
+.. _prov_rec: 
+
 Provider and receiver organisations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

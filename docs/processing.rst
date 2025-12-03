@@ -4,6 +4,8 @@ Data Processing
 
 This section outlines how IATI data is processed by CDFD.
 
+.. _trans_split: 
+
 Transaction Splitting 
 ===========================
 
@@ -82,7 +84,7 @@ When correcting percentages for countries/regions, the following logic is used:
 Aggregation
 ============
 
-Once split by country/region and sector, transactions and budgets are aggregated into calendar years and :ref:`calendar quarters<Calendar Quarter>`.
+Once split by country/region and sector, transactions and budgets are aggregated into calendar years and :ref:`calendar quarters<cal quarters>`.
 
 Each row is the quarterly/yearly aggregation where all other data fields are the same.
 This means that the quarter may be split across multiple rows, such as in the multi-sector `activity <https://countrydata.iatistandard.org/data/custom/?drilldowns=recipient_country_or_region%3Bactivity.iati_identifier%3Bactivity.title%3Bsector%3Bcalendar_year_and_quarter.calendar_year_and_quarter&filters=activity.iati_identifier%3AXM-DAC-928-AL-2022-23-01.001.EU01.ALB01%3Bcalendar_year_and_quarter%3A2022%20Q1%3Btransaction_type%3A3,4,budget&displayAs=table>`_ shown below:
@@ -106,6 +108,8 @@ Individual transactions are conversion to USD, Euro, and the local (country) cur
 Budget values are converted using the closest date to the budget :iati-reference:`@value-date`.
 
 Monthly exchange rates for 169 currencies are sourced from the IMF's `International Financial Statistics <https://data.imf.org/en?sk=4C514D48-B6BA-49ED-8AB9-52B0C1A0179B>`_.
+
+.. _budgets: 
 
 Budget Handling
 ======================
