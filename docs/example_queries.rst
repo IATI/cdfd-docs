@@ -12,7 +12,7 @@ Example Queries
 | 
 
 .. _q1: 
-1: How do I find organisations involved in humanitarian responses?
+1: How do I find organisations involved in humanitarian responses? 
 -------------------------------------------------------------------
 
 A Local NGO is looking to coordinate with other organisations. They want to find a list of organisations who are supporting the humanitarian response in Lebanon.
@@ -40,12 +40,11 @@ The `resulting table <https://countrydata.iatistandard.org/data/custom/?drilldow
 .. note::
     If :iati-reference:`provider-org` or :iati-reference:`receiver-org` are not specified for individual transactions, 
     CDFD will populate these fields using the reporting and participating organisations elements. 
-    See the Methodology section on :ref:`Provider and receiver organisations` for more information.
+    See the Methodology section on :ref:`Provider and receiver organisations <prov_rec>` for more information.
 
-| 
 
 .. _q2: 
-2: What external resources were spent in 2021 Q4 in Zimbabwe?
+2: What external resources were spent in 2021 Q4 in Zimbabwe? 
 -------------------------------------------------------------------
 
 The Ministry of Finance in Zimbabwe needs data on external inflows to the country to feed into the quarterly calculation of Balance of Payments. 

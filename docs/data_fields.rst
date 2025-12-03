@@ -57,8 +57,8 @@ Depending on the detail published, this field may include the name of the organs
 The name used for the same organisation may vary between reporting organisations. 
 For example, AfDB, African Development Bank, African Development Bank Group, etc.
 
-Where organisations do not declare a :iati-reference:`provider-org` for a transaction, the logic described in the Methodology; :ref:`Provider and receiver organisations` section is followed.
-For budgets, the logic described in the Methodology; :ref:`Budget Handling` section is followed. 
+Where organisations do not declare a :iati-reference:`provider-org` for a transaction, the logic described in the Methodology; :ref:`Provider and receiver organisations <prov_rec>` section is followed.
+For budgets, the logic described in the Methodology; :ref:`Budget Handling <budgets>` section is followed. 
 
 
 Provider Organisation Type	
@@ -72,8 +72,8 @@ Receiver Organisation
 The organisation receiving the specified transaction amount. 
 Depending on the detail published, this field may include the name of the organsation, their unique organisation identifier, or both.
 
-Where organisations do not declare a :iati-reference:`receiver-org` for a transaction, the logic described in the Methodology; :ref:`Provider and receiver organisations` section is followed.
-For budgets, the logic described in the Methodology; :ref:`Budget Handling` section is followed. 
+Where organisations do not declare a :iati-reference:`receiver-org` for a transaction, the logic described in the Methodology; :ref:`Provider and receiver organisations <prov_rec>` section is followed.
+For budgets, the logic described in the Methodology; :ref:`Budget Handling <budgets>` section is followed. 
 
 Receiver Organisation Type
 ===========================
@@ -106,7 +106,7 @@ Multi Country
 Indicates whether the activity has one or multiple recipient countries, where 1 = True and 0 = False.
 If it is a multi-country activity, this means that the estimated percentage to that country has been applied to the transaction / budget values.
 
-The logic of transaction splitting is described  in the Methodology; :ref:`Transaction Splitting` section. 
+The logic of transaction splitting is described  in the Methodology; :ref:`Transaction Splitting <trans_split>` section. 
 
 Sector Category	
 ================
@@ -127,6 +127,8 @@ An indication of whether the transaction/budget can be categorized as humanitari
 Calendar Year	
 ==============
 The year in which the transaction occurred or the year for which the budget values have been aggregated.
+
+.. _cal quarters:
 
 Calendar Quarter	
 =================
