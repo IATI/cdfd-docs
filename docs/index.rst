@@ -27,6 +27,7 @@ We recommend CDFD for:
     getting_started
     data_fields
     example_queries
+    videos
     faq
 
 .. toctree::

@@ -12,6 +12,7 @@ Example Queries
 | 
 
 .. _q1: 
+
 1: How do I find organisations involved in humanitarian responses? 
 -------------------------------------------------------------------
 
@@ -44,6 +45,7 @@ The `resulting table <https://countrydata.iatistandard.org/data/custom/?drilldow
 
 
 .. _q2: 
+
 2: What external resources were spent in 2021 Q4 in Zimbabwe? 
 -------------------------------------------------------------------
 
