@@ -37,9 +37,15 @@ Frequently Asked Questions
     We are currently working to improve access to bulk downloads of CDFD's outputs from the web interface. 
     While this work is ongoing, bulk downloads can be found at the following links:
 
-    * `EN_CDFD.zip <https://cdfd.iati.opendataservices.coop/output/web/xlsx/cdfd-xlsx-files-en.zip>`_
-    * `FR_CDFD.zip <https://cdfd.iati.opendataservices.coop/output/web/xlsx/cdfd-xlsx-files-fr.zip>`_
-    * `ES_CDFD.zip <https://cdfd.iati.opendataservices.coop/output/web/xlsx/cdfd-xlsx-files-es.zip>`_
-    * `PT_CDFD.zip <https://cdfd.iati.opendataservices.coop/output/web/xlsx/cdfd-xlsx-files-pt.zip>`_
+    * English: `EN_CDFD.zip <https://cdfd.iati.opendataservices.coop/output/web/xlsx/cdfd-xlsx-files-en.zip>`_
+    * French: `FR_CDFD.zip <https://cdfd.iati.opendataservices.coop/output/web/xlsx/cdfd-xlsx-files-fr.zip>`_
+    * Spanish: `ES_CDFD.zip <https://cdfd.iati.opendataservices.coop/output/web/xlsx/cdfd-xlsx-files-es.zip>`_
+    * Portuguese:  `PT_CDFD.zip <https://cdfd.iati.opendataservices.coop/output/web/xlsx/cdfd-xlsx-files-pt.zip>`_
 
-    Note that this is a prototype service. There may be a delay of ~24-36 hours before recently published data is incorporated into these aggregate results.
+    There may be a delay of ~24-36 hours before recently published data is incorporated into these aggregate results.
+
+    Note that this is a prototype service. For example, transactions which have the same sector, recipient, etc are aggregated into calendar quarters.
+    However, the :iati-reference:`iati-activity/transaction/aid-type/@code` column is not currently included in the download, so it may not be clear why some  
+    transactions with different earmarking codes are not aggregated. 
+
+    
