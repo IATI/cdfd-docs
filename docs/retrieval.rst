@@ -7,7 +7,7 @@ This section outlines how IATI data is retrieved by CDFD.
 Data Source
 ============
 
-CDFD downloads a daily snapshot of all IATI data from the `IATI Data Dump <https://iati-data-dump.codeforiati.org/>`_, a tool built by the IATI community.
+CDFD downloads a daily snapshot of all IATI data from the `IATI Bulk Data Service <https://bulk-data.iatistandard.org/>`_.
 
 CDFD currently uses all IATI data published to version 2.01 of the standard or above. 
 This includes both valid and invalid data, so activities that are not accessible via other IATI tooling may be found in CDFD outputs. 
