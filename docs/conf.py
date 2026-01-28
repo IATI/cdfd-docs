@@ -45,6 +45,7 @@ html_theme_options = {  # See https://iati-sphinx-theme.readthedocs-hosted.com/e
     "languages": ["en", "fr", "es"],
     "project_title": _("CDFD: Documentation"),
     "show_download_links": True,
+    "tool_nav_items": {"CDFD": "https://countrydata.iatistandard.org/"},
 }
 
 # Add any paths that contain custom static files (such as style sheets, videos,
@@ -54,6 +55,18 @@ html_theme_options = {  # See https://iati-sphinx-theme.readthedocs-hosted.com/e
 html_static_path = ["_static"]
 
 todo_include_todos = True
+
+html_context = {}
+
+if os.environ.get("READTHEDOCS") == "True":
+    project_slug = os.environ.get("READTHEDOCS_PROJECT")
+    version_slug = os.environ.get("READTHEDOCS_VERSION")
+    language_slug = os.environ.get("READTHEDOCS_LANGUAGE", "en")
+
+    # RTD's standard download URL pattern
+    pdf_url = f"https://{project_slug}.readthedocs-hosted.com/_/downloads/{language_slug}/{version_slug}/pdf/"
+
+    html_context["pdf_url"] = pdf_url
 
 # -- Options for Texinfo output -------------------------------------------
 
