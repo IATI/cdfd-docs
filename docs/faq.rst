@@ -16,7 +16,7 @@ Frequently Asked Questions
 .. _faq_1: 
 
 \1. What data is included in CDFD?
-    Data published to the `International Aid Transparency Initiative <https://iatistandard.org/en/>`_ (IATI). These data come from the `IATI Registry <https://www.iatiregistry.org/>`_.
+    Data published to the `International Aid Transparency Initiative <https://iatistandard.org/en/>`_ (IATI). These data come from the `IATI Bulk Data Service <https://bulk-data.iatistandard.org/>`_.
 
 .. _faq_2: 
 
